@@ -1,21 +1,60 @@
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Index</title>
+    <title>CSS test page</title>
+    <link rel="stylesheet" href="styles/Externally.CSS">
+    <style media="screen">
+      input:invalid{
+        border: 2px dashed red;
+      }
+
+      input:valid {
+        border: 2px solid black;
+      }
+    </style>
   </head>
+  <h1 align="center">Online Market</h1>
+
+  <a href="Index.html">Home</a>
+  <a href="Contact.html">Contact</a>
+
+  <h2>New Products Details</h2>
   <body>
-    <h1>Home</h1>
-    <ul>
-      <li><a href="Contact.html">Contact</a></li>
-    </ul>
-    <p>For <em><strong>searching</strong></em> click the image below:</p>
-    <a href="https://www.google.com" title="Google website"
-    alt="Image for Google logo">
-  <figure>
-    <img src="Images/google2.0.0.jpg" alt="My test image"
-    width="100" height="75">
-  </figure>
-</a>
+
+    <table border="2">
+
+    <th rowspan="5" style="background-color:blue">Schedule</th>
+
+
+      <tr>
+        <th>Name</th>
+        <th>Birthday</th>
+        <th>Phone</th>
+      </tr>
+
+      <tr>
+        <td>x1</td>
+        <td>30/01</td>
+        <td>1111</td>
+      </tr>
+
+      <tr>
+        <td>x2</td>
+        <td>15/12</td>
+        <td>1112</td>
+      </tr>
+
+      <tr>
+        <td>x3</td>
+        <td>15/12</td>
+        <td>1112</td>
+      </tr>
+    </table>
+
+<p>To order product online</p>
+
+<label>Name :</label>
+<input type="number"required><br/><br/>
+
   </body>
 </html>
